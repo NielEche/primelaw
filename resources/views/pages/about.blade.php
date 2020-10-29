@@ -36,74 +36,92 @@ About
 		</div>
 	</div>
 
-	<div class="full-block-01 full-block--bg-01">
+	<div id="attorney" style="padding-bottom: 220px !important;" class="bg-darkgray color-block-01 color-block-01--02 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3">
+                    <h2 class="content-title-01">Meet Our Attorneys</h2>
+                </div>
+                <div class="col-xl-6">
+                    <div class="content-text-01">
+                        <p>We bring each client a combination of deep industry knowledge and expert perspectives from
+                            other industries on the challenge at stake, to offer our clients fresh perspectives and
+                            breakthrough business insights.</p>
+                    </div>
+                </div>	
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="indents-70 indents-xl-25"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="team-block team-block--02">
+                        <div class="team-block__item px-2">
+                            <figure class="team-block__item-img">
+                                <a href="#">
+                                    <img src="{{ asset('files/img/team_img/team1.jpg') }}" alt="">
+                                </a>
+                            </figure>
+                            <div class="team-block__item-content">
+                                <h3 class="team-block__item-title py-1">
+                                    <a href="" data-toggle="modal" data-target="#attorneybio">Bill Uzoma Ukachukwu</a>
+                                </h3>
+                                <p class="team-block__item-subtitle">Senior Partner</p>
+                            </div>
+                        </div>
+                        <div class="team-block__item px-2">
+                            <figure class="team-block__item-img">
+                                <a href="#">
+                                    <img src="{{ asset('files/img/team_img/team2.jpg') }}" alt="">
+                                </a>
+                            </figure>
+                            <div class="team-block__item-content">
+                                <h3 class="team-block__item-title py-1">Lilly-Tariah Sojiye T</h3>
+                                <p class="team-block__item-subtitle">Senior Partner</p>
+                            </div>
+                        </div>
+                        <div class="team-block__item px-2">
+                            <figure class="team-block__item-img">
+                                <a href="#">
+                                    <img src="{{ asset('files/img/team_img/team3.jpg') }}" alt="">
+                                </a>
+                            </figure>
+                            <div class="team-block__item-content">
+                                <h3 class="team-block__item-title py-1">Oche Samuel Onazi</h3>
+                                <p class="team-block__item-subtitle">Senior Associate</p>
+                            </div>
+                        </div>
+                        <div class="team-block__item px-2">
+                            <figure class="team-block__item-img">
+                                <a href="#">
+                                    <img src="{{ asset('files/img/team_img/team1.jpg') }}" alt="">
+                                </a>
+                            </figure>
+                            <div class="team-block__item-content">
+                                <h3 class="team-block__item-title py-1">Nweze Nkechi</h3>
+                                <p class="team-block__item-subtitle">Associate</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+	
+    <div class="full-block-01 full-block--bg-01">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<h2 class="full-block-01__title">Achieving excellence through competence, dynamism and integrity”</h2>
+					<h2 class="full-block-01__title text-white abt">Achieving excellence through competence, dynamism and integrity”</h2>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="color-block-02 color-block-02--01">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="shortcode-counter-wrapp">
-						<div class="shortcode-counter">
-							<div class="counter-wrapper">
-								<div class="counter-content">
-									<div class="stat-count-wrapper">
-										<p class="stat-count stat-count__dec" data-count="72">0</p>
-										<p class="counter-title">Charges
-											<br> Dropped</p>
-									</div>
-									<div class="stat-temp"></div>
-								</div>
-							</div>
-						</div>
-						<div class="shortcode-counter">
-							<div class="counter-wrapper">
-								<div class="counter-content">
-									<div class="stat-count-wrapper">
-										<p class="stat-count" data-count="87">0</p>
-										<p class="counter-title">Cases
-											<br> Won</p>
-									</div>
-									<div class="stat-temp"></div>
-								</div>
-							</div>
-						</div>
-						<div class="shortcode-counter">
-							<div class="counter-wrapper">
-								<div class="counter-content">
-									<div class="stat-count-wrapper">
-										<p class="stat-count" data-count="36">0</p>
-										<p class="counter-title">Cases
-											<br> Dismissed</p>
-									</div>
-									<div class="stat-temp"></div>
-								</div>
-							</div>
-						</div>
-						<div class="shortcode-counter">
-							<div class="counter-wrapper">
-								<div class="counter-content">
-									<div class="stat-count-wrapper">
-										<p class="stat-count" data-count="24">0</p>
-										<p class="counter-title">Countersuits
-											<br> Filed</p>
-									</div>
-									<div class="stat-temp"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
+
+	@include('partials.modals.attorneyBio')
 </main>
 @endsection
 

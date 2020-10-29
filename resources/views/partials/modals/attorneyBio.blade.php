@@ -19,10 +19,10 @@
                                 </div>
                                 <div class="col-lg-9">
                                     <div class="accordion" id="accordionExample">
-                                        <div class="card">
-                                            <div class="card-header" id="headingOne">
+                                        <div class="card border-0">
+                                            <div class="card-header bg-transparent" id="headingOne">
                                                 <h2 class="mb-0">
-                                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                    <button class="btn btn-link bg-none" type="button" data-toggle="collapse"
                                                         data-target="#collapseOne" aria-expanded="true"
                                                         aria-controls="collapseOne">
                                                         <h2 class="content-title--01 content-title--02">BILL UZOMA UKACHUKWU
@@ -41,13 +41,13 @@
                                                             Calabar in 1996.</p>
                                                         <p>Admitted to the Nigerian Bar in
                                                             1997</p>
-                                                        <p><strong>1998-1999<br>
+                                                        <p><strong class="gold-c">1998-1999<br>
                                                             </strong>Counsel in the law firm of Titilola A. Dauda &amp;
                                                             CO,&nbsp; Gombe, Gombe State</p>
-                                                        <p><strong>1999- 2005</strong><br>
+                                                        <p><strong class="gold-c">1999- 2005</strong><br>
                                                             Head of Chambers in the law firm of A.&nbsp;Nwuke &amp;
                                                             Associates- Port Harcourt.&nbsp; Rivers State.</p>
-                                                        <p><strong>February 2005 till
+                                                        <p><strong class="gold-c">February 2005 till
                                                                 date</strong><br>
                                                             Senior Partner in the Law Firm of Prime
                                                             Law&nbsp;Partnership.</p>
@@ -65,22 +65,22 @@
                                                     <ul class="single-team-soclist mb-0">
                                                         <li>
                                                             <a href="#">
-                                                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                                <i class="fa fa-twitter gold-c" aria-hidden="true"></i>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="#">
-                                                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                                                <i class="fa fa-facebook gold-c" aria-hidden="true"></i>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="#">
-                                                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                <i class="fa fa-linkedin gold-c" aria-hidden="true"></i>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="#">
-                                                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                                                <i class="fa fa-instagram gold-c" aria-hidden="true"></i>
                                                             </a>
                                                         </li>
                                                     </ul>

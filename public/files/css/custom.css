@@ -15,3 +15,129 @@ a:focus {
     outline: -webkit-focus-ring-color auto 0px;
     text-decoration: none !important;
 }
+
+.form-control:focus {
+    text-decoration: none !important;
+    outline: 0;
+    border-color: #fff !important;
+    box-shadow: 0 0 0 0.2rem rgba(213, 218, 223, 0.25);
+}
+
+.registerLi {
+    justify-content: center;
+}
+
+.active {
+    color: gray !important;
+}
+
+.fw-35 {
+    font-weight: 300 !important;
+}
+
+.bg-darkgray {
+    background-color: #232629 !important;
+}
+
+.counter1-bg {
+    padding: 50px 0 50px;
+}
+
+.li-head {
+    list-style: outside;
+}
+
+.ul-left {
+    padding-left: 2rem !important;
+}
+
+.pa-img{
+    height: 191px !important;
+    object-fit: cover !important;
+}
+
+.gold-c {
+    color: #bdaa80 !important;
+}
+
+.gold-c:hover {
+    color: #bdaa80 !important;
+    opacity: 0.5πs;
+}
+
+.pad-5  {
+    padding:0px 150px 0px 150px;
+}
+
+
+element.style {
+    background-color: #232629;
+}
+
+
+@media (min-width: 1280px) {
+    .pad-5 {
+        padding: 0px 200px 0px 200px !important;
+    }
+}
+
+@media (max-width: 1280px) {
+    .pad-5 {
+        padding: 0px 120px 0px 120px !important;
+    }
+}
+
+@media (max-width: 993px) {
+    .pad-5 {
+        padding: 0px 50px 0px 50px !important;
+        text-align: center;
+    }
+}
+
+
+.exp {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    display: block !important;
+}
+
+.btn {
+    border: 0px !important;
+}
+
+@media (min-width: 1199px) {
+	.form-sec {
+        padding-left: 15em !important;
+        padding-right: 15em !important;
+	}
+}
+
+.btn-gold {
+    background-color: #bdaa80;
+    color: #fff;
+}
+
+.btn:focus,
+.btn:active {
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none;
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.abt::before {
+    background-color:#fff !important;
+}
+
+/* #appointment .visible{
+    visibility: visible ;
+}
+
+#appointment {
+    visibility: hidden ;
+} */

@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use DB;
+use Auth;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -16,11 +19,6 @@ class PagesController extends Controller
         return view('pages.about');
     }
 
-    public function attorneys()
-    {
-        return view('pages.attorneys');
-    }
-
     public function experiences()
     {
         return view('pages.experiences');
@@ -30,12 +28,6 @@ class PagesController extends Controller
     {
         return view('pages.contact');
     }
-
-    public function appointment()
-    {
-        return view('pages.appointment');
-    }
-
 
     public function practiceArea()
     {
@@ -50,5 +42,30 @@ class PagesController extends Controller
     public function OilandGas()
     {
         return view('pages.practiceAreas.oil-and-gas');
+    }
+
+    public function telecomPatentTrademarks()
+    {
+        return view('pages.practiceAreas.telecom-patent');
+    }
+
+    public function foreignInvestmentsDivestments()
+    {
+        return view('pages.practiceAreas.foreign-investment');
+    }
+
+    public function commercialLaws()
+    {
+        return view('pages.practiceAreas.commercial-laws');
+    }
+
+    public function bankingCorporateFinance()
+    {
+        return view('pages.practiceAreas.banking-corporate-finance');
+    }
+
+    public function labourLaw()
+    {
+        return view('pages.practiceAreas.banking-corporate-finance');
     }
 }

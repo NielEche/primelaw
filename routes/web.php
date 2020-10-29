@@ -14,13 +14,50 @@ use App\Http\Controllers\PagesController;
 |
 */
 
+
+// Route::post('/appointment', [
+//     'uses' => 'AppointmentController@AppointmentForm',
+//     'as' => 'appointment.store'
+// ]);
+
+Auth::routes();
+
+Route::group(['middleware' => ['auth']], function () {
+    Route::resources([
+        'dashboard' => DashboardController::class,
+        'appointment' => AppointmentController::class,
+        ]);
+});
+
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
 Route::get('/', [PagesController::class, 'index'])->name('index');
 Route::get('/about', [PagesController::class, 'about'])->name('about');
-Route::get('/attorneys', [PagesController::class, 'attorneys'])->name('attorneys');
 Route::get('/experiences', [PagesController::class, 'experiences'])->name('experiences');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
-Route::get('/appointment', [PagesController::class, 'appointment'])->name('appointment');
-Route::get('/practiceArea', [PagesController::class, 'practiceArea'])->name('practiceArea');
-Route::get('/companyInvestmentLaws', [PagesController::class, 'companyInvestmentLaws'])->name('companyInvestmentLaws');
+Route::get('/practice-area', [PagesController::class, 'practiceArea'])->name('practiceArea');
+Route::get('/company-investment-laws', [PagesController::class, 'companyInvestmentLaws'])->name('companyInvestmentLaws');
 Route::get('/OilandGas', [PagesController::class, 'OilandGas'])->name('OilandGas');
+Route::get('/telecomPatentTrademarks', [PagesController::class, 'telecomPatentTrademarks'])->name('telecomPatentTrademarks');
+Route::get('/foreignInvestmentsDivestments', [PagesController::class, 'foreignInvestmentsDivestments'])->name('foreignInvestmentsDivestments');
+Route::get('/commercialLaws', [PagesController::class, 'commercialLaws'])->name('commercialLaws');
+Route::get('/bankingCorporateFinance', [PagesController::class, 'bankingCorporateFinance'])->name('bankingCorporateFinance');
+Route::get('/labourLaw', [PagesController::class, 'labourLaw'])->name('labourLaw');
+
+// Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+//     return view('dashboard');
+// })->name('dashboard');
+
+
+
+// // Render in view
+// Route::get('/appointment', [
+//     'uses' => 'AppointmentController@createForm'
+// ]);
+
+// Post form data
+
+// Route::post('/appointment', [AppointmentController::class, 'store'])->name('appointment.store');
 

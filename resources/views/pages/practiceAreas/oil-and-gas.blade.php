@@ -10,7 +10,7 @@ Oil And Gas
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="page-title">Oil And Gas</h2>
+                    <h2 class="page-title">@yield('title')</h2>
                 </div>
             </div>
         </div>
@@ -41,14 +41,14 @@ Oil And Gas
                     <li class="{{ (\Request::route()->getName() == 'labourLaw') ? ' active' : '' }}">
                         <a href="{{ route('labourLaw') }}">Labour Law</a>
                     </li>
-                    <li class="{{ (\Request::route()->getName() == 'securitiesCapital') ? ' active' : '' }}">
-                        <a href="{{ route('securitiesCapital') }}">Securities and Capital Market Issues</a>
+                    <li class="#">
+                        <a href="#">Securities and Capital Market Issues</a>
                     </li>
-                    <li class="{{ (\Request::route()->getName() == 'propertyRealEstate') ? ' active' : '' }}">
-                        <a href="{{ route('propertyRealEstate') }}">Property & Real Estate</a>
+                    <li class="#">
+                        <a href="#">Property & Real Estate</a>
                     </li>
-                    <li class="{{ (\Request::route()->getName() == 'litigation') ? ' active' : '' }}">
-                        <a href="{{ route('litigation') }}">Litigation</a>
+                    <li class="#">
+                        <a href="#">Litigation</a>
                     </li>
                     <li>
                         <a href="#">Company Secretarial</a>
@@ -56,12 +56,12 @@ Oil And Gas
                 </ul>
             </div>
             <div class="col-md-9">
+                <h4 class="icon-box-01__title">The Firm has wide and varied experience in oil and gas law.</h4>
                 <div class="single-content">
-                    <p>The Firm offers professional advice to local and overseas clients on all aspects of Nigerian and International business law. Its target clients include public and private companies and other commercial enterprises, individuals and corporate investors, financial institutions and other participants in development and venture capital transactions.</p>
-                    <p>Our services have been engaged in the negotiation and preparation of pre-incorporation contracts, the formation and structuring of corporate entities, Shareholders Agreements and Joint Venture structuring, Asset Sale, Acquisition, Transfer of Shares or Stocks held by foreign and or local entities.</p>
+                    <p>The members of the Firm have proffered advice and acted on behalf of multinational companies operating in Nigeria on varied aspects of their local activities and have frequently been called upon to review and or draft leases, assignments and or other operating documents.</p>
+                    <p>The Firm acts for and advises oil exploration and oil service companies and is frequently involved in obtaining accreditation with the NNPC, providing consultation and advisory services on taxation and other legal issues including the drafting of service engagement documentation.</p>
                 
-                    <p>In 2003 one of our members was involved as local Counsel in the All Share Sale of a 40% interest in an oil block for one of the foremost indigenous oil exploration companies in Nigeria, a transaction in excess of $30 million USD.</p>
-                    <p>Again, in 2003, we have been involved in the assignment of the 40% interest in an oil bloc in Nigeria to the South African Petroleum Company. Members of our firm have also been involved in issuing opinions and acting on behalf of the Bureau of Public Enterprises on the structuring of public enterprises slated for privatization in the ongoing economic reforms.</p>
+                    <p>In February 2003, a member of the firm was part of a special purpose team that was engaged by the Bureau of Public Enterprises to provide Institutional Analysis of Nigerian Environmental and Related Legislation and International Obligation in relation to the privatization of public enterprises.</p>
                     <div class="indents-25"></div>
                 </div>
             </div>

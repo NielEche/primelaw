@@ -510,7 +510,7 @@ ul li::before {
 }
 
 .page-header-07 {
-	background: url("../img/header_bg/header_bg_07.jpg") no-repeat top center;
+	background: url("../img/header_bg/parea.jpg") no-repeat top center;
 	-webkit-background-size: cover;
 	background-size: cover;
 	position: relative;
@@ -589,7 +589,7 @@ ul li::before {
 }
 
 .is-sticky .header-content {
-	background-color: #383b3d;
+	background-color: #232629;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	-webkit-transition: all 0.5s;
@@ -1205,7 +1205,7 @@ ul li::before {
 	z-index: 999;
 	width: 45px;
 	height: 45px;
-	background: #5e5964;
+	background: #fff;
 	-webkit-border-radius: 0;
 	border-radius: 0;
 	display: none;
@@ -1224,7 +1224,7 @@ ul li::before {
 	content: '';
 	width: 1px;
 	height: 18px;
-	background-color: #fff;
+	background-color: #bdaa80;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -1239,9 +1239,34 @@ ul li::before {
 	left: 50%;
 	border-top: 6px solid transparent;
 	border-right: 4px solid transparent;
-	border-bottom: 5px solid #fff;
+	border-bottom: 5px solid #bdaa80;
 	border-left: 3px solid transparent;
 	margin-left: -4px;
+}
+
+
+.back2top:hover:before {
+	content: '';
+	position: absolute;
+	top: 7px;
+	left: 50%;
+	border-top: 6px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom: 5px solid #fff !important;
+	border-left: 3px solid transparent;
+	margin-left: -4px;
+}
+
+.back2top:hover:after {
+	content: '';
+	width: 1px;
+	height: 18px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -9px;
+	margin-left: -1px;
 }
 
 .back2top:hover {
@@ -1521,7 +1546,7 @@ ul li::before {
 
 /*// Practice lists //*/
 .practice-lists {
-	background-color: #47414f;
+	background-color:#232629;
 	padding: 66px 0 56px;
 }
 
@@ -1608,7 +1633,7 @@ ul li::before {
 	border-top: 3px solid transparent;
 	border-right: 5px solid transparent;
 	border-bottom: 4px solid transparent;
-	border-left: 6px solid #9f96ab;
+	border-left: 6px solid #bdaa80;
 	display: inline-block;
 	vertical-align: middle;
 	position: absolute;
@@ -1624,7 +1649,7 @@ ul li::before {
 
 .practice-lists__link::before {
 	content: '';
-	background-color: #9f96ab;
+	background-color: #bdaa80;
 	width: 16px;
 	height: 1px;
 	display: inline-block;
@@ -1709,7 +1734,8 @@ ul li::before {
 }
 
 .button-02:hover {
-	background-color: #47414f;
+	background-color: #232629;
+	color: #fff;
 }
 
 .button-03 {
@@ -1977,7 +2003,7 @@ ul li::before {
 
 /*// Full block type 1 //*/
 .full-block--bg-01 {
-	background: url("../img/about2.jpg") no-repeat center center;
+	background: url("../img/abt1.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	background-size: cover;
 	padding: 127px 0 145px;
@@ -2210,7 +2236,7 @@ ul li::before {
 }
 
 .team-block--02::before {
-	content: '';
+	content: none;
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -2231,7 +2257,7 @@ ul li::before {
 }
 
 .team-block__item {
-	background-color: #fff;
+	background-color: transparent;
 	-webkit-box-flex: 0;
 	-webkit-flex: 0 0 25%;
 	-ms-flex: 0 0 25%;
@@ -2251,7 +2277,7 @@ ul li::before {
 	margin: 0 15px 30px 15px;
 }
 .team-block__item:nth-child(2n) {
-	background-color: #f9f9fa;
+	background-color: transparent;
 }
 
 .team-block__item-img {
@@ -2279,6 +2305,7 @@ ul li::before {
 	font-weight: 400;
 	margin: 0;
 	position: relative;
+	color: #fff;
 }
 
 .team-block__item-title::before {
@@ -2287,7 +2314,7 @@ ul li::before {
 	vertical-align: middle;
 	width: 30px;
 	height: 1px;
-	background-color: #bdbdbd;
+	background-color: #ccbd99;
 	margin-right: 20px;
 	position: absolute;
 	top: 50%;
@@ -2694,7 +2721,7 @@ ul li::before {
 }
 
 .subscribe-box__btn:hover {
-	background: #47414f;
+	background: #232629;
 }
 
 .subscribe-box-title {
@@ -4423,7 +4450,7 @@ ul li::before {
 
 /*// Block list //*/
 .block-list-01 {
-	margin-bottom: 56px;
+	margin-bottom: 36px;
 }
 
 .block-list-01__img {
@@ -4440,12 +4467,12 @@ ul li::before {
 }
 
 .block-list-01__content {
-	text-align: center;
+	text-align: left;
 }
 
 .block-list-01__title {
 	font-size: 20px;
-	text-align: center;
+	text-align: left;
 	margin: 0 0 10px 0;
 	color: #272b2e;
 	height: 40px;
@@ -4461,7 +4488,7 @@ ul li::before {
 }
 
 .block-list-01__text {
-	text-align: center;
+	text-align: left;
 	margin-bottom: 18px;
 	height: 70px;
 }
@@ -6813,7 +6840,7 @@ ul li::before {
 		height: auto !important;
 		padding-top: 25px;
 		padding-bottom: 25px;
-		background-color: #2a2e31;
+		background-color: #232629;
 	}
 
 	.social-list-01 {

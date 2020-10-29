@@ -10,7 +10,7 @@ Company Investment Laws
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="page-title">Company & Investment Laws</h2>
+                    <h2 class="page-title">@yield('title')</h2>
                 </div>
             </div>
         </div>
@@ -41,14 +41,14 @@ Company Investment Laws
                     <li class="{{ (\Request::route()->getName() == 'labourLaw') ? ' active' : '' }}">
                         <a href="{{ route('labourLaw') }}">Labour Law</a>
                     </li>
-                    <li class="{{ (\Request::route()->getName() == 'securitiesCapital') ? ' active' : '' }}">
-                        <a href="{{ route('securitiesCapital') }}">Securities and Capital Market Issues</a>
+                    <li class="#">
+                        <a href="#">Securities and Capital Market Issues</a>
                     </li>
-                    <li class="{{ (\Request::route()->getName() == 'propertyRealEstate') ? ' active' : '' }}">
-                        <a href="{{ route('propertyRealEstate') }}">Property & Real Estate</a>
+                    <li class="#">
+                        <a href="#">Property & Real Estate</a>
                     </li>
-                    <li class="{{ (\Request::route()->getName() == 'litigation') ? ' active' : '' }}">
-                        <a href="{{ route('litigation') }}">Litigation</a>
+                    <li class="#">
+                        <a href="#">Litigation</a>
                     </li>
                     <li>
                         <a href="#">Company Secretarial</a>
