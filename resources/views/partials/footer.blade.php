@@ -87,6 +87,11 @@
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
                             </a>
                         </li>
+                        <li>
+                            <a href="https://premium158.web-hosting.com:2096/cpsess3025445564/3rdparty/roundcube/?_task=mail&_mbox=INBOX">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">

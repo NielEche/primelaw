@@ -45,6 +45,12 @@ Route::get('/foreignInvestmentsDivestments', [PagesController::class, 'foreignIn
 Route::get('/commercialLaws', [PagesController::class, 'commercialLaws'])->name('commercialLaws');
 Route::get('/bankingCorporateFinance', [PagesController::class, 'bankingCorporateFinance'])->name('bankingCorporateFinance');
 Route::get('/labourLaw', [PagesController::class, 'labourLaw'])->name('labourLaw');
+Route::get('/corporateGovernance', [PagesController::class, 'corporateGovernance'])->name('corporateGovernance');
+Route::get('/securitesCmi', [PagesController::class, 'securitesCmi'])->name('securitesCmi');
+Route::get('/realEstate', [PagesController::class, 'realEstate'])->name('realEstate');
+Route::get('/familyLaw', [PagesController::class, 'familyLaw'])->name('familyLaw');
+Route::get('/litigation', [PagesController::class, 'litigation'])->name('litigation');
+Route::get('/companySecretariat', [PagesController::class, 'companySecretariat'])->name('companySecretariat');
 
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 //     return view('dashboard');

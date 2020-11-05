@@ -66,7 +66,7 @@ About
                             </figure>
                             <div class="team-block__item-content">
                                 <h3 class="team-block__item-title py-1">
-                                    <a href="" data-toggle="modal" data-target="#attorneybio">Bill Uzoma Ukachukwu</a>
+                                    <a href="" data-toggle="modal" data-target="#attorneybio">Bill Ukachukwu</a>
                                 </h3>
                                 <p class="team-block__item-subtitle">Senior Partner</p>
                             </div>
@@ -78,7 +78,7 @@ About
                                 </a>
                             </figure>
                             <div class="team-block__item-content">
-                                <h3 class="team-block__item-title py-1">Lilly-Tariah Sojiye T</h3>
+                                <h3 class="team-block__item-title py-1"> Sojiye Tekenam Lilly-Tariah</h3>
                                 <p class="team-block__item-subtitle">Senior Partner</p>
                             </div>
                         </div>
@@ -89,8 +89,19 @@ About
                                 </a>
                             </figure>
                             <div class="team-block__item-content">
-                                <h3 class="team-block__item-title py-1">Oche Samuel Onazi</h3>
-                                <p class="team-block__item-subtitle">Senior Associate</p>
+                                <h3 class="team-block__item-title py-1"> Ibibi Tienabeso</h3>
+                                <p class="team-block__item-subtitle">Head of Chambers</p>
+                            </div>
+                        </div>
+                        <div class="team-block__item px-2">
+                            <figure class="team-block__item-img">
+                                <a href="#">
+                                    <img src="{{ asset('files/img/team_img/team2.jpg') }}" alt="">
+                                </a>
+                            </figure>
+                            <div class="team-block__item-content">
+                                <h3 class="team-block__item-title py-1">Nissi Nneoma Ogbonna</h3>
+                                <p class="team-block__item-subtitle">Associate</p>
                             </div>
                         </div>
                         <div class="team-block__item px-2">
@@ -100,11 +111,10 @@ About
                                 </a>
                             </figure>
                             <div class="team-block__item-content">
-                                <h3 class="team-block__item-title py-1">Nweze Nkechi</h3>
+                                <h3 class="team-block__item-title py-1">Ezekiel Chidolue Okoye</h3>
                                 <p class="team-block__item-subtitle">Associate</p>
                             </div>
                         </div>
-                       
                     </div>
                 </div>
             </div>

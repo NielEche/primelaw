@@ -29,7 +29,8 @@ Telecoms, Patents and Trademarks
                     <li class="{{ (\Request::route()->getName() == 'telecomPatentTrademarks') ? ' active' : '' }}">
                         <a href="{{ route('telecomPatentTrademarks') }}">Telecomms, Patents and Trademarks</a>
                     </li>
-                    <li class="{{ (\Request::route()->getName() == 'foreignInvestmentsDivestments') ? ' active' : '' }}">
+                    <li
+                        class="{{ (\Request::route()->getName() == 'foreignInvestmentsDivestments') ? ' active' : '' }}">
                         <a href="{{ route('foreignInvestmentsDivestments') }}">Foreign Investments and Divestments</a>
                     </li>
                     <li class="{{ (\Request::route()->getName() == 'commercialLaws') ? ' active' : '' }}">
@@ -41,24 +42,34 @@ Telecoms, Patents and Trademarks
                     <li class="{{ (\Request::route()->getName() == 'labourLaw') ? ' active' : '' }}">
                         <a href="{{ route('labourLaw') }}">Labour Law</a>
                     </li>
-                    <li class="#">
-                        <a href="#">Securities and Capital Market Issues</a>
+                    <li class="{{ (\Request::route()->getName() == 'corporateGovernance') ? ' active' : '' }}">
+                        <a href="{{ route('corporateGovernance') }}">Corporate Governance</a>
                     </li>
-                    <li class="#">
-                        <a href="#">Property & Real Estate</a>
+                    <li  class="{{ (\Request::route()->getName() == 'securitesCmi') ? ' active' : '' }}">
+                        <a href="{{ route('securitesCmi') }}">Securities and Capital Market Issues</a>
                     </li>
-                    <li class="#">
-                        <a href="#">Litigation</a>
+                    <li class="{{ (\Request::route()->getName() == 'realEstate') ? ' active' : '' }}">
+                        <a href="{{ route('realEstate') }}">Property & Real Estate</a>
                     </li>
-                    <li>
-                        <a href="#">Company Secretarial</a>
+                    <li class="{{ (\Request::route()->getName() == 'familyLaw') ? ' active' : '' }}">
+                        <a href="{{ route('familyLaw') }}">Family Law</a>
+                    </li>
+                    <li class="{{ (\Request::route()->getName() == 'litigation') ? ' active' : '' }}">
+                        <a href="{{ route('litigation') }}">Litigation</a>
+                    </li>
+                    <li class="{{ (\Request::route()->getName() == 'companySecretariat') ? ' active' : '' }}">
+                        <a href="{{ route('companySecretariat') }}">Company Secretariat</a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-9">
                 <div class="single-content">
-                    <p>The Firm has proffered advice to and assisted individuals and corporate bodies in the formation of and registration of telecommunication companies. A member of the Firm was in 2004 engaged in collaborative research with a top law firm in South Africa for the review of media and information legal environment in South African states. The firm also represents local and overseas clients in the application for and registration of Patent and Trade Marks.</p>
-                   <div class="indents-25"></div>
+                    <p>The Firm has proffered advice to and assisted individuals and corporate bodies in the formation
+                        of and registration of telecommunication companies. A member of the Firm was in 2004 engaged in
+                        collaborative research with a top law firm in South Africa for the review of media and
+                        information legal environment in South African states. The firm also represents local and
+                        overseas clients in the application for and registration of Patent and Trade Marks.</p>
+                    <div class="indents-25"></div>
                 </div>
             </div>
         </div>

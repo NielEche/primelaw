@@ -41,17 +41,23 @@ Company Investment Laws
                     <li class="{{ (\Request::route()->getName() == 'labourLaw') ? ' active' : '' }}">
                         <a href="{{ route('labourLaw') }}">Labour Law</a>
                     </li>
-                    <li class="#">
-                        <a href="#">Securities and Capital Market Issues</a>
+                    <li class="{{ (\Request::route()->getName() == 'corporateGovernance') ? ' active' : '' }}">
+                        <a href="{{ route('securitesCmi') }}">Corporate Governance</a>
                     </li>
-                    <li class="#">
-                        <a href="#">Property & Real Estate</a>
+                    <li  class="{{ (\Request::route()->getName() == 'securitesCmi') ? ' active' : '' }}">
+                        <a href="{{ route('corporateGovernance') }}">Securities and Capital Market Issues</a>
                     </li>
-                    <li class="#">
-                        <a href="#">Litigation</a>
+                    <li class="{{ (\Request::route()->getName() == 'realEstate') ? ' active' : '' }}">
+                        <a href="{{ route('realEstate') }}">Property & Real Estate</a>
                     </li>
-                    <li>
-                        <a href="#">Company Secretarial</a>
+                    <li class="{{ (\Request::route()->getName() == 'familyLaw') ? ' active' : '' }}">
+                        <a href="{{ route('familyLaw') }}">Family Law</a>
+                    </li>
+                    <li class="{{ (\Request::route()->getName() == 'litigation') ? ' active' : '' }}">
+                        <a href="{{ route('litigation') }}">Litigation</a>
+                    </li>
+                    <li class="{{ (\Request::route()->getName() == 'companySecretariat') ? ' active' : '' }}">
+                        <a href="{{ route('companySecretariat') }}">Company Secretariat</a>
                     </li>
                 </ul>
             </div>

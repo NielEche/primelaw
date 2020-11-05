@@ -15,7 +15,7 @@ Home
                 <ul>
                     <li data-transition="fade">
                         <img src="{{ asset('files/img/slider/slide1.jpg') }}" class="rev-slidebg" alt="" />
-                       
+
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption tp-resizeme " id="slide-home11-title"
                             data-x="['left','left','left','left']" data-hoffset="['15','100','30','15']"
@@ -114,17 +114,23 @@ Home
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-3">
-                    <h2 class="content-title-01 content-title--06">Achieving excellence through competence, dynamism and integrity</h2>
+                    <h2 class="content-title-01 content-title--06">Achieving excellence through competence, dynamism and
+                        integrity</h2>
                 </div>
                 <div class="col-lg-1">
                     <div class="content-divider"></div>
                 </div>
                 <div class="col-lg-4">
                     <p class=" fw-35">
-                        <span class="dropcap">O</span>ur firm has over the years built an active company, commercial, advisory and litigation Practice Group that has arisen in the main from advising clients on various aspects of Commercial law, Land Law, Company Law and related transactions, including </p>
+                        <span class="dropcap">O</span>ur firm has over the years built an active company, commercial,
+                        advisory and litigation Practice Group that has arisen in the main from advising clients on
+                        various aspects of Commercial law, Land Law, Company Law and related transactions, including
+                    </p>
                 </div>
                 <div class="col-lg-4">
-                    <p class="fw-35">statutory provisions, different modes of acquisition, compensation, community/traditional relations and litigation. Ours is arguably one of the foremost of such practice groups in the entire South/South and South East Regions of the country presently.</p>
+                    <p class="fw-35">statutory provisions, different modes of acquisition, compensation,
+                        community/traditional relations and litigation. Ours is arguably one of the foremost of such
+                        practice groups in the entire South/South and South East Regions of the country presently.</p>
                 </div>
             </div>
             <div class="row">
@@ -177,7 +183,7 @@ Home
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 
     <div class="practice-lists">
         <div class="container">
@@ -185,7 +191,11 @@ Home
                 <div class="col-md-6">
                     <h2 class="content-title-01">Practice Areas</h2>
                     <div class="practice-lists__text">
-                        <p class="fw-35">The experience accumulated by the members of the Firm span through Commercial and Civil Litigation, Banking and Corporate Finance, Company and Investment Laws, Telecommunication and Technology Law, Oil and Gas Law, Environmental Law, Real Estate, Industrial and Labour Laws, Securities and Capital Market Issues</p>
+                        <p class="fw-35">The Firm offers professional advice to local and overseas clients on all
+                            aspects of Nigerian and International business law. Its target clients include public and
+                            privatecompanies and other commercial enterprises, individuals and corporate
+                            investors,financial institutions and other participants in development and venture
+                            capital transactions.</p>
                     </div>
                     <div class="indents-md-30"></div>
                 </div>
@@ -227,7 +237,8 @@ Home
                 </div>
                 <div class="col-xl-3">
                     <div class="color-block-01__btn-wrapp">
-                        <a href="{{ route('about') }}#attorney" class="button-01 text-white" style="font-family: 'Prata', 'Arial', sans-serif;">Meet Our Team</a>
+                        <a href="{{ route('about') }}#attorney" class="button-01 text-white"
+                            style="font-family: 'Prata', 'Arial', sans-serif;">Meet Our Team</a>
                     </div>
                 </div>
             </div>
@@ -241,13 +252,13 @@ Home
                     <div class="team-block team-block--02">
                         <div class="team-block__item px-2">
                             <figure class="team-block__item-img">
-                                <a href="#attorneybio">
+                                <a href="#">
                                     <img src="{{ asset('files/img/team_img/team1.jpg') }}" alt="">
                                 </a>
                             </figure>
                             <div class="team-block__item-content">
                                 <h3 class="team-block__item-title py-1">
-                                    <a href="" data-toggle="modal" data-target="#attorneybio">Bill Uzoma Ukachukwu</a>
+                                    <a href="" data-toggle="modal" data-target="#attorneybio">Bill Ukachukwu</a>
                                 </h3>
                                 <p class="team-block__item-subtitle">Senior Partner</p>
                             </div>
@@ -259,7 +270,7 @@ Home
                                 </a>
                             </figure>
                             <div class="team-block__item-content">
-                                <h3 class="team-block__item-title py-1">Lilly-Tariah Sojiye T</h3>
+                                <h3 class="team-block__item-title py-1"> Sojiye Tekenam Lilly-Tariah</h3>
                                 <p class="team-block__item-subtitle">Senior Partner</p>
                             </div>
                         </div>
@@ -270,8 +281,19 @@ Home
                                 </a>
                             </figure>
                             <div class="team-block__item-content">
-                                <h3 class="team-block__item-title py-1">Oche Samuel Onazi</h3>
-                                <p class="team-block__item-subtitle">Senior Associate</p>
+                                <h3 class="team-block__item-title py-1"> Ibibi Tienabeso</h3>
+                                <p class="team-block__item-subtitle">Head of Chambers</p>
+                            </div>
+                        </div>
+                        <div class="team-block__item px-2">
+                            <figure class="team-block__item-img">
+                                <a href="#">
+                                    <img src="{{ asset('files/img/team_img/team2.jpg') }}" alt="">
+                                </a>
+                            </figure>
+                            <div class="team-block__item-content">
+                                <h3 class="team-block__item-title py-1">Nissi Nneoma Ogbonna</h3>
+                                <p class="team-block__item-subtitle">Associate</p>
                             </div>
                         </div>
                         <div class="team-block__item px-2">
@@ -281,17 +303,16 @@ Home
                                 </a>
                             </figure>
                             <div class="team-block__item-content">
-                                <h3 class="team-block__item-title py-1">Nweze Nkechi</h3>
+                                <h3 class="team-block__item-title py-1">Ezekiel Chidolue Okoye</h3>
                                 <p class="team-block__item-subtitle">Associate</p>
                             </div>
                         </div>
-                       
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
 
     <div class="counter1-bg counter-block-01">
         <div class="container">
@@ -307,9 +328,10 @@ Home
                                     <div class="banner-02__item-content">
                                         <p class="banner-02__item-subtitle">Schedule</p>
                                         <h3 class="banner-02__item-title py-2"> A Consultation Today</h3>
-                                        <a class="button-02" href="{{ route('appointment.index') }}">MAKE AN APPOINTMENT</a>
+                                        <a class="button-02" href="{{ route('appointment.index') }}">MAKE AN
+                                            APPOINTMENT</a>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -318,7 +340,7 @@ Home
             </div>
         </div>
     </div>
-    
+
     <div class="bg-darkgray color-block-03--01">
         <div class="container">
             <div class="row">

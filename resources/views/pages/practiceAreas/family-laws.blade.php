@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-BANKING AND CORPORATE FINANCE.
+FAMILY LAW
 @endsection
 
 @section('content')
@@ -45,7 +45,7 @@ BANKING AND CORPORATE FINANCE.
                     <li class="{{ (\Request::route()->getName() == 'corporateGovernance') ? ' active' : '' }}">
                         <a href="{{ route('corporateGovernance') }}">Corporate Governance</a>
                     </li>
-                    <li  class="{{ (\Request::route()->getName() == 'securitesCmi') ? ' active' : '' }}">
+                    <li class="{{ (\Request::route()->getName() == 'securitesCmi') ? ' active' : '' }}">
                         <a href="{{ route('securitesCmi') }}">Securities and Capital Market Issues</a>
                     </li>
                     <li class="{{ (\Request::route()->getName() == 'realEstate') ? ' active' : '' }}">
@@ -64,17 +64,11 @@ BANKING AND CORPORATE FINANCE.
             </div>
             <div class="col-md-9">
                 <div class="single-content">
-                    <p>The Firm provides specialized service for Commercial Banks and other financialinstitutions
-                        operating in Nigeria and its Members have represented major financialinstitutions engaged in
-                        transactions in Nigeria.We provide comprehensive advice on all domestic and international
-                        bankingoperations, including lending on the security of all forms of assets. We also provideand
-                        perfect purpose-structured security and financial documentation.</p>
-                    <p>The Members have been involved in a series of loan syndication transactions onbehalf of
-                        indigenous Nigerian Companies. A member of the Firm was part of a teamthat recently acted for an
-                        overseas financial institution in the closure of thepurchase of a 40% interest in an Oil Mining
-                        Lease in Nigeria; a transaction in excessof US$ 50 million</p>
-                    <p>We routinely offer advice to banks and other financial institutions on compliancewith banking and
-                        other regulatory legislation.</p>
+                    <p>Our Family Law Practice essentially provides services with regard to child adoptionapplications,
+                        child maintenance applications, services in the drafting and executionof wills and codicils,
+                        litigation services in matrimonial matters and advisory and litigation services in matters of
+                        inheritance</p>
+
                     <div class="indents-25"></div>
                 </div>
             </div>

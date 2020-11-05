@@ -66,6 +66,37 @@ class PagesController extends Controller
 
     public function labourLaw()
     {
-        return view('pages.practiceAreas.banking-corporate-finance');
+        return view('pages.practiceAreas.labour-law');
+    }
+
+    public function corporateGovernance()
+    {
+        return view('pages.practiceAreas.corporate-governance');
+    }
+
+    public function securitesCmi()
+    {
+        return view('pages.practiceAreas.securities-capital');
+    }
+
+    public function realEstate()
+    {
+        return view('pages.practiceAreas.property-real-estate');
+    }
+
+    public function familyLaw()
+    {
+        return view('pages.practiceAreas.family-laws');
+    }
+
+    public function litigation()
+    {
+        return view('pages.practiceAreas.litigation');
+    }
+
+    public function companySecretariat()
+    {
+        return view('pages.practiceAreas.company-secretariat');
     }
 }
+
